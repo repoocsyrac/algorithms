@@ -53,6 +53,10 @@ header {
     color: #364652;
 }
 
+#navbar .title {
+    cursor: default;
+}
+
 #main-doc {
     position: absolute;
     margin-left: 310px;
