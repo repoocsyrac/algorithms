@@ -55,6 +55,7 @@ header {
 
 #navbar .title {
     cursor: default;
+    font-weight: bold;
 }
 
 #main-doc {
