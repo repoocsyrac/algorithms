@@ -63,3 +63,7 @@ header {
     padding: 20px;
     margin-bottom: 110px;
 }
+
+.bold {
+    font-weight: bold;
+}
