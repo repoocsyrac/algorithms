@@ -36,6 +36,23 @@
                 <li><span class="bold">When to use:</span> When you are searching a very small list</li>
             </ul>
             <h2>How it works</h2>
+            <p>Starting at the first element of the list, we go through each element in turn, checking whether or not it is the element we're looking for.</p>
+            <p>If so, the index the element was found at is returned.</p>
+            <p>If we reach the end of the list and no index has been found, we have determined that the element is not in the list.</p>
+            <h2>Code</h2>
+            <div class="code">
+            <pre>
+                <code>
+                    func linear_search(list, target):
+                        for i=1 to list.length
+                            if list[i] == target:
+                                print i
+                            endif
+                        endfor
+                    endfunc
+                </code>
+            </pre>
+            </div>
         </main>
     </body>
 </html>

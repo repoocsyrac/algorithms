@@ -69,3 +69,8 @@ header {
 .bold {
     font-weight: bold;
 }
+
+.code {
+    background-color:#364652;
+    color: #FBFF12;
+}
