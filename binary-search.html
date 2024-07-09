@@ -24,6 +24,32 @@
 
         <main id="main-doc">
             <h1>Binary Search</h1>
+            <h2>Key facts</h2>
+            <ul>
+                <li><span class="bold">Goal:</span> Finds specific element in a <em>sorted</em> list.</li>
+                <li><span class="bold">Best-case time complexity:</span> O(1)</li>
+                <li><span class="bold">Worst-case time complexity:</span> O(log N)</li>
+                <li><span class="bold">Average time complexity:</span> O(log N)</li>
+                <li><span class="bold">Space complexity:</span> O(1)</li>
+                <li><span class="bold">Pros:</span> Faster than linear search.</li>
+                <li><span class="bold">Cons:</span> List must be sorted.</li>
+                <li><span class="bold">When to use:</span> When you are searching a very large list.</li>
+            </ul>
+            <h2>How it works</h2>
+            <p>We start at the midpoint of the list, and check whether the item at this index is the item we are looking for.</p>
+            <p>If so, we are done.</p>
+            <p>If the required item is larger than the element at the midpoint, we discard all the elements up to and including the midpoint, and repeat.</p>
+            <p>If the required item is smaller than the element at the midpoint, we discard the midpoint and all elements after it, and repeat.</p>
+            <h2>Code</h2>
+            <div class="code">
+            <pre>
+                <code>
+                    func binary_search(list, target):
+                        
+                    endfunc
+                </code>
+            </pre>
+            </div>
         </main>
     </body>
 </html>
